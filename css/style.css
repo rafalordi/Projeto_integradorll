@@ -1,9 +1,3 @@
-/*--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -25,27 +19,27 @@ font-family: 'Roboto', sans-serif;
 }
 /*-- banner --*/
 .banner{
-    background: url(../images/pic01.jpg) no-repeat 0px 0px;
+    background: url(../fotos/natureza.jpg) no-repeat 0px 0px;
     background-size: cover;
-	min-height: 1200px;
+	min-height: 50px;
 	position: relative;
 	background-attachment:fixed;
 }
 .banner-1{
-    background: url(../images/pic01.jpg) no-repeat 0px 0px;
+    background: url(../fotos/natureza.2.png) no-repeat 0px 0px;
     background-size: cover;
-    min-height: 500px;
+    min-height: 300px;
     position: relative;
     background-attachment: fixed;
 }
 .agile_dot_info {
     background: url(../images/overlay.png)repeat;
-	min-height: 800px;
+	min-height: 560px;
 }
 /*-- w3-header-bottom --*/
 .w3-header-bottom {
-    background:rgba(56, 57, 58, 0.54);
-    padding: 1em 0em;
+    background:rgba(245, 12, 4, 0.54);
+    padding: 0,5em 0em;
 }
 .agileinfo-phone {
 	float: left;
@@ -176,7 +170,7 @@ font-family: 'Roboto', sans-serif;
 	border-left: none;
 }
 .top-nav ul li a:hover{
-    color: #97f302!important;
+    color: rgb(213, 252, 205)!important;
 }
 .top-nav ul li a.active{
 	color: #97f302!important;
@@ -263,13 +257,13 @@ ul.dropdown-menu li:after{
 /*-- //top-nav --*/
 /*-- social-icons --*/
 .agileinfo-social-grids {
-    float: right;
+    float: left;
     margin-top: 0.4em;
     width: 20%;
 }
 .agileinfo-social-grids ul{
-	padding:0;
-	margin:0;
+	padding: 0;;
+	margin: 0;;
 }
 .agileinfo-social-grids ul li{
     display: inline-block;
@@ -308,10 +302,58 @@ ul.dropdown-menu li:after{
 .agileinfo-social-grids ul li a i.fa.fa-vk:hover{
 	background: #45668e;
 }
+
+/*-- Raony --*/
+.agileinfo-social-grids2{
+    float: right;
+    margin-top: 0.4em;
+    width: 0%;
+}
+.agileinfo-social-grids2 ul{
+	padding: 0;;
+	margin: 0;;
+}
+.agileinfo-social-grids2 ul li{
+    display: inline-block;
+}
+.agileinfo-social-grids2 ul li a {
+	color: #FFFFFF;
+    text-align: center;
+}
+.agileinfo-social-grids2 ul li a i.fa{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    background: #363636;
+    width: 40px;
+    height: 40px;
+    line-height: 2.5em;
+    border-radius: 50%;
+}
+.agileinfo-social-grids2 ul li a i.fa.fa-facebook:hover {
+	background:#ff0000;
+}
+.agileinfo-social-grids2 ul li a i.fa.fa-twitter{
+	margin:0 1em;
+}
+.agileinfo-social-grids2 ul li a i.fa.fa-twitter:hover{
+	background: #55acee;
+}
+.agileinfo-social-grids2 ul li a i.fa.fa-rss{
+	margin:0 0.5em 0 0;
+}
+.agileinfo-social-grids2 ul li a i.fa.fa-rss:hover{
+	background: #f26522;
+}
+.agileinfo-social-grids2 ul li a i.fa.fa-vk:hover{
+	background: #45668e;
+}
 /*-- w3-header-bottom --*/
 /*-- banner-info --*/
 .banner-info {
-    padding: 15em 0 0 0;
+    padding: 7em 0 0 0;
 }
 .w3layouts-banner-info{
     text-align: center;
@@ -319,7 +361,7 @@ ul.dropdown-menu li:after{
 .w3layouts-banner-info h3 {
     color: #97f302;
     font-size: 3em;
-    margin: .5em 0;
+    margin: 1em 0;
     text-transform: uppercase;
     position: relative;
     letter-spacing: 5px;
@@ -335,7 +377,7 @@ ul.dropdown-menu li:after{
     width: 59%;
 }
 .w3ls-button {
-    margin: 2em auto 1em;
+    margin: 2em center 1em;
 }
 .w3ls-button a {
 	color: #fff;
@@ -352,14 +394,14 @@ ul.dropdown-menu li:after{
     background: #f05d68!important;
 }
 .w3layouts-banner-info h4 {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 400;
     font-style: italic;
     text-transform: capitalize;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .banner_form_agileits h5 {
-    font-size: 16px;
+    font-size: 27.5px;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -565,6 +607,7 @@ ul.dropdown-menu li:after{
 .callbacks_here a:after{
   background: #97f302;
   border: 2px solid #97f302;
+  padding: right;
 }
 /*-- //slider --*/
 /*-- //banner-info --*/
@@ -776,7 +819,7 @@ h4.sub-title {
     font-size: 40px;
     margin-bottom: 1.9em;
     text-align: center;
-    color: #97f302;
+    color: #5fc400;
     text-transform: capitalize;
     position: relative;
 	margin-top:0;
@@ -1213,7 +1256,7 @@ figure.effect-jazz:hover p {
 /*-- //about --*/
 /*--services --*/
 .w3-services{
-   background: url(../images/pic01.jpg) no-repeat 0px 0px;
+   background: url(../fotos/natureza.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 500px;
 	background-attachment:fixed;
@@ -1555,7 +1598,7 @@ figure.effect-jazz:hover p {
 }
 .testimonials h5 {
     font-size: 16px;
-    color: #97f302;
+    color: #d86901;
 	margin-top:10px;
 }
 .testimonials h4 {
@@ -2256,7 +2299,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 /*-- //typography --*/
 /*-- offers --*/
 .offers {
-   background: url(../images/pic01.jpg)no-repeat;
+   background: url(../fotos/natureza.jpg)no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 5em 0;

@@ -68,7 +68,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3layouts-logo">
 				<h1>
-					<a href="indexpessoaladm.php">Helper </a>
+					<a href="index.html">Helper </a>
 				</h1>
 			</div>
 			<div class="top-nav">
