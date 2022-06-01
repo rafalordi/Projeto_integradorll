@@ -1,11 +1,15 @@
 <?php
-
-
-
-$conexao = @mysql_connect('localhost', 'root', '');
-mysql_select_db('helper') or die(mysql_error());
-
-
+$servername = "127.0.0.1";
+$database = "PI";
+$username = "root";
+$password = "";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $database);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
 
 
 
@@ -15,22 +19,21 @@ $telefone=$_POST['telefone'];
 $email=$_POST['email'];
 $senha=$_POST['senha'];
 
-$sql = mysql_query("INSERT INTO pessoa(nome, telefone, email, senha)
+$sql = mysqli_query($conn, "INSERT INTO pessoa(nome, telefone, email, senha)
 VALUES('$nome', '$telefone', '$email', '$senha')");
 
-//$nome = mysql_query("SELECT nome FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
-$sql = mysql_query("SELECT * FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
-$row = mysql_num_rows($sql);
-$sql = mysql_query("Select nome From pessoa WHERE email = '$email' and senha = '$senha'");
-$exibe = mysql_fetch_assoc($sql);
+$sql = mysqli_query($conn, "SELECT * FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
+$row = mysqli_num_rows($sql);
+$sql = mysqli_query("Select nome From pessoa WHERE email = '$email' and senha = '$senha'");
+$exibe = mysqli_fetch_assoc($sql);
 
 
-$id = @mysql_query("SELECT id_pessoa FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
-$meuid = @mysql_fetch_assoc($id);
+$id = @mysqli_query($conn, "SELECT id_pessoa FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
+$meuid = @mysqli_fetch_assoc($id);
 
 
-$telefone = @mysql_query("SELECT telefone FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
-$meutelefone = @mysql_fetch_assoc($telefone);
+$telefone = @mysqli_query($conn, "SELECT telefone FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
+$meutelefone = @mysqli_fetch_assoc($telefone);
 
 
 
@@ -44,6 +47,4 @@ if($row > 0){
 
 
 header("Location:perfilpessoal.php");}
-
-	
 ?>
