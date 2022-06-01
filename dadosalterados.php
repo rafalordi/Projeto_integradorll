@@ -10,9 +10,9 @@ echo '<html lang="en">
 <head>
 <link rel="icon" 
       type="image/png" 
-      href="images/hicon.png">
+      href="fotos/ícone.png">
 	  
-<title>Helper</title>
+<title>Perfil HelperTec</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="Travel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -26,21 +26,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--// css -->
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!-- font -->
-<link href="//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Raleway:100,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-<!-- //font -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
-			$("html,body").animate({scrollTop:$(this.hash).offset().top},1000);
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
-	})
+	});
 </script> 
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -53,7 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3layouts-logo">
 				<h1>
-					<a href="index.html">Helper </a>
+					<a href="index.html">HelperTec </a>
 				</h1>
 			</div>
 			<div class="top-nav">
@@ -89,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="agileinfo-social-grids">
 				<ul>
-					<li><a href="https://www.facebook.com/Helper-Denúncia-Online-2070322706623352/"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.facebook.com/Definir-111116794904391/"><i class="fa fa-facebook"></i></a></li>
 					
 					
 				</ul>
@@ -104,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="contact">
 		<div class="container">
 		<center><font color="red"><h3>Dados alterados com sucesso!!!</h3></font></center><br><br>
-			<h2 class="heading-agileinfo">Seja Bem-vindo '.$_SESSION['nome'].'<span>Helper - Denúncia Online</span></h2>
+			<h2 class="heading-agileinfo">Seja Bem-vindo '.$_SESSION['nome'].'<span>HelperTec - Denúncia Online</span></h2>
 			<div class="w3layouts_mail_grids">
 				<div class="col-md-4 w3layouts_mail_grid_left">
 					
@@ -199,27 +193,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 	
 
-	<div class="footer">
+		<div class="footer">
 		<div class="container">
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Esse site foi desenvolvido por alunos do curso Técnico de Informática, da ETEC Arnaldo Pereira Cheregatti para apresentar como Trabalho de Conclusão de Curso. <span> O mesmo sendo desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Este site foi desenvolvido por alunos da <a href="https://univesp.br">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
-			
-				
 				
 				<div class="col-md-2 agile-footer-grid">
-					<h4>Crimes Virtuais</h4>
+					<h4>Linhas do (REEE)</h4>
 					<ul>
-						<li>Discriminação/Racismo</li>
-						<li>Sexismo</li>
-						<li>Bullying Virtual</li>
-						<li>Homofobia</li>
-						<li>Pornografia Infantil</li>
+						<li>Linha Verde</li>
+						<li>Linha Marrom</li>
+						<li>Linha Azul</li>
+						<li>Linha Branca</li>
 					</ul>
 				</div>
-				
 				
 				
 				<div class="col-md-2 agile-footer-grid" align="right">
@@ -242,7 +232,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- footer -->
 <div class="copy-right">
 	<div class="container">
-			<p> &copy; 2018 Helper . Todos direitos reservados | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+			<p> &copy; 2022 HelperTec. Todos os direitos reservados.
 	</div>
 </div>
 <!-- //footer -->
@@ -253,16 +243,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: "toTop", // fading element id
-				containerHoverID: "toTopHover", // fading element hover id
-				scrollSpeed: 1200,
-				easingType: "linear"
-				};
-			*/
-								
-			$().UItoTop({ easingType: "easeOutQuart" });
+				
+			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
 	</script>

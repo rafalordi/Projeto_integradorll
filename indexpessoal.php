@@ -9,8 +9,8 @@ echo '<html lang="en">
 <head>
 <link rel="icon" 
       type="image/png" 
-      href="images/hicon.png">
-<title>Helper</title>
+      href="fotos/ícone.png">
+<title>HelperTec</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="Travel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -30,25 +30,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--// css -->
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!-- font -->
-<link href="//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Raleway:100,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-<!-- //font -->
+
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
-			$("html,body").animate({scrollTop:$(this.hash).offset().top},1000);
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script> 
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<![endif]-->
 </head>
 <body>
 	<!-- banner -->
@@ -58,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3layouts-logo">
 				<h1>
-					<a href="index.html">Helper </a>
+					<a href="index.html">HelperTec </a>
 				</h1>
 			</div>
 			<div class="top-nav">
@@ -72,7 +64,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</button>
 								</div>
 							<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
 									<li class="first-list"><a class="active" href="indexpessoal.php">Página Inicial</a></li>
 									<li><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
@@ -96,9 +88,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="agileinfo-social-grids">
 				<ul>
-					<li><a href="https://www.facebook.com/Helper-Denúncia-Online-2070322706623352/"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.facebook.com/Definir-111116794904391"><i class="fa fa-facebook"></i></a></li>
 				
 				</ul>
+			</div>
+			<div class="agileinfo-social-grids2">
+				<!-- <ul>
+					<li><a href="https://univesp.br"><i class="fa fa-facebook"></i></a></li>
+				
+				</ul> -->
 			</div>
 			<div class="clearfix"> </div>
 			</div>
@@ -111,10 +109,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="rslides callbacks callbacks1" id="slider4">
 								<li>
 									<div class="w3layouts-banner-info">
-									<h4>Bem-Vindo ao Helper</h4>
-										<h3>Denúncia Online</h3>
+									<h4>Bem-Vindo ao HelperTec</h4>
+										<h3>Descarte de Lixo Eletônico</h3>
 										<div class="banner_form_agileits">
-										<h5>Inscreva-se para denunciar</h5>
+										<h5>Inscreva-se para contribuir</h5>
 										
 												
 											
@@ -127,10 +125,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</li>
 								<li>
 									<div class="w3layouts-banner-info">
-									<h4>Bem-Vindo ao Helper</h4>
-										<h3>Acabe com o preconceito virtual </h3>
+									<h4>Bem-Vindo ao HelperTec</h4>
+										<h3>Contribua com o meio ambiente</h3>
 										<div class="banner_form_agileits">
-										<h5>Inscreva-se para denunciar</h5>
+										<h5>Inscreva-se para contribuir</h5>
 										
 												
 												
@@ -142,10 +140,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</li>
 								<li>
 									<div class="w3layouts-banner-info">
-										<h4>Bem-Vindo ao Helper</h4>
+										<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Faça sua parte</h3>
 										<div class="banner_form_agileits">
-											<h5>Inscreva-se para denunciar</h5>
+											<h5>Inscreva-se para contribuir</h5>
 											
 												
 												
@@ -190,30 +188,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="banner-btm">
 				<div class="col-md-6 banner-btm-g1">
-					<img src="images/gutinho.png" class="img-responsive" alt="" />
+					<img src="fotos/celular lixo.png" alt="" width="550" height="350" />
 				</div>
 				<div class="col-md-6 banner-btm-g2">
-					<h3 class="title-main">Boas Vindas ao Helper </h3>
-					<h4 class="sub-title">Denúncia Online</h4>
-					<p>Helper é o "ajudante" dos usuários da internet, você pode por meio dele, denunciar crimes virtuais.
+					<h3 class="title-main">Boas Vindas ao HelperTec </h3>
+					<h4 class="sub-title">Relate Online o Descarte</h4>
+					<p>HelperTec é o "ajudante" do meio ambiente, contribuindo com o descarte correto de resíduos eletrônicos. Além do descarte correto, o site também auxulia seus usuários sobre os impactos que estes materias podem causar no planeta e nos seres vivos. Logo mais abaixo, você verá algumas curiosidades e botões de "Clicando Aqui", que lhes levará para mais detalhes sobre os assuntos ali mencionados.
 
 					</p>
 					<div class="find-about">
-						<a href="cadastro.html">Cadastre-se para denunciar</a>
+					
 					</div>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
-	<h3 class="heading-agileinfo">Helper<span>Denúncia Online</span></h3>
+	<h3 class="heading-agileinfo">HelperTec<span>Relate Online o Descarte</span></h3>
 	<div class="about-grid">
 		
 		<div class="col-md-6 about-sub-grid">
 			<div class="col-md-6 about-right about-right-flex">
 				<div class="about-bottom-text">
-					<h4 class="title1">Racismo </h4>
-					<p class="text">Racismo é um resultado do preconceito, causado pelo antipatia e pelo ódio à pessoas com diferente cor de pele, costumes, tradições, idioma, local de nascimento, etc.</p>
+					<h4 class="title1">Lixo eletrônico </h4><br><br>
+					<p class="text">Lixo eletrônico é todo equipamento ou acessório eletroeletrônico que foram descartados e não serão reutilizados pelas mesmas pessoas.</p>
+					
 				</div>
 				<div class="about-bottom-grid about-img1">
 				</div>
@@ -222,9 +221,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="about-bottom-grid about-img2">
 				</div>
 				<div class="about-bottom-text ab1">
-					<h4 class="title1">Homofobia </h4>
-					<br><br><br><br>
-					<p class="text">Rejeição ou aversão a homossexual e à homossexualidade.
+					<h4 class="title1">Impactos ambientais </h4><br><br>
+					<p class="text">O mau descarte de lixo eletrônico gera muitos malefícios para sociedade, tais como: contaminação de solo e lençóis freáticos, além de diminuir a vida de aterros sanitários.
 				</p>
 				</div>
 			</div>
@@ -242,7 +240,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- testimonials -->
 <div class="testimonials">
 	<div class="container">
-		<h3 class="heading-agileinfo">Crimes Virtuais<span>Alguns exemplos</span></h3>
+		<h3 class="heading-agileinfo">O Descarte Consciente<span>Veja Alguns Tópicos</span></h3>
 		<div class="flexslider-info">
 			<section class="slider1">
 				<div class="flexslider">
@@ -250,36 +248,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li>
 							<div class="w3l-info1">
 								<div class="col-md-3 testimonials-grid-1">
-									<img src="images/icone racismo.png" alt="" />
+									<img src="fotos/lixolixo.jpg" alt="" />
 								</div>
 								<div class="col-md-9 testimonials-grid-2">
-									<h4>Racismo</h4>
+									<h4>Lixo eletrônico</h4>
 									<h5>O que é?</h5>
-									<p>É um resultado do preconceito, causado pelo antipatia e pelo ódio à pessoas com diferente cor de pele, costumes, tradições, idioma, local de nascimento, etc.</p>
+									<p>O Lixo Eletrônico possui muitos nomes, como e-lixo, resíduos de equipamento eletroeletrônico (REEE) ou simplesmente resíduo eletrônico. Os termos se referem a produtos elétricos ou eletrônicos que são descartados por não terem mais utilidade, ou seja, poderiam ser reciclados aos invés de destinados em um aterro sanitário. Você pode saber mais sobre o Lixo eletrônico <a href="https://www.todamateria.com.br/lixo-eletronico/">Clicando Aqui</a>.</p>
 								</div>
 							</div>
 						</li>
 						<li>
 							<div class="w3l-info1">
 								<div class="col-md-3 testimonials-grid-1">
-									<img src="images/sexismo.png" alt="" />
+									<img src="fotos/doente.jpg" alt="" />
 								</div>
 								<div class="col-md-9 testimonials-grid-2">
-									<h4>Sexismo</h4>
-									<h5>O que é?</h5>
-									<p>Sexismo é a discriminação que é exercida sobre um indivíduo pelo seu sexo. Isto significa que a pessoa é discriminada num determinado âmbito, uma vez que se considera que o seu género (sexo), tendo em conta as características, é inferior ao outro.</p>
+									<h4>Qual é o impacto do lixo eletrônico no Brasil?</h4>
+									<h5>E o que isso afeta em crianças?</h5>
+									<p> Além dos impactos no planeta já mencionados logo acima; algumas doenças infantis também podem estar associadas ao lixo eletrônico. Esses aspectos incluem: alterações na função pulmonar, efeitos respiratórios, danos ao DNA, prejuízos à função da tireoide e aumento do risco de algumas doenças crônicas tardias, como câncer e doenças cardiovasculares. Você pode saber mais sobre este impacto que os resíduos eletrônicos possam agregar na saúde infantil <a href="https://www.bio.fiocruz.br/index.php/br/noticias/2453-oms-lixo-eletronico-afeta-saude-de-milhoes-de-criancas">Clicando Aqui</a>.</p>
 								</div>
 							</div>
 						</li>
 						<li>
 							<div class="w3l-info1">
 								<div class="col-md-3 testimonials-grid-1">
-									<img src="images/lgbt.png" alt=""  />
+									<img src="fotos/PNRS.png" alt=""  />
 								</div>
 								<div class="col-md-9 testimonials-grid-2">
-									<h4>Homofobia</h4>
-									<h5>O que é?</h5>
-									<p>A homofobia pode ser definida como “uma aversão irreprimível, repugnância, medo, ódio, preconceito que algumas pessoas nutrem contra os homossexuais, lésbicas, bissexuais e transexuais (também conhecidos como grupos LGBT)”.</p>
+									<h4>Como proceder caso possua algum resíduo eletrônico?</h4>
+									<h5>Qual a melhor maneira de "se livrar" disso?</h5>
+									<p>A melhor maneira de descartar estes materiais é levar o lixo eletrônico para pontos de coleta seletiva. Várias cidades no Brasil têm esses pontos de coleta, conhecidos como Ecopontos. Também existem os postos coletores, mercados e revendedores de produtos eletrônicos que aceitam estes materiais. Muitos destes descartes ainda podem ser reaproveitados através de pessoas especializadas no assunto. Quer saber mais sobre este assunto? Então veja sobre a Política Nacional de Resíduos Sólidos (PNRS) <a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm">Clicando Aqui</a>.</p>
 								</div>
 							</div>
 						</li>
@@ -296,17 +294,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Esse site foi desenvolvido por alunos do curso Técnico de Informática, da ETEC Arnaldo Pereira Cheregatti para apresentar como Trabalho de Conclusão de Curso.<span>O mesmo sendo desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
 				
 				<div class="col-md-2 agile-footer-grid">
-					<h4>Crimes Virtuais</h4>
+					<h4>Linhas do (REEE)</h4>
 					<ul>
-						<li>Discriminação/Racismo</li>
-						<li>Sexismo</li>
-						<li>Bullying Virtual</li>
-						<li>Homofobia</li>
-						<li>Pornografia Infantil</li>
+						<li>Linha Verde</li>
+						<li>Linha Marrom</li>
+						<li>Linha Azul</li>
+						<li>Linha Branca</li>
 					</ul>
 				</div>
 				<div class="col-md-2 agile-footer-grid">
