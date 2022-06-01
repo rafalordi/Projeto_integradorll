@@ -1624,7 +1624,7 @@ figure.effect-jazz:hover p {
     color: #97dae2;
 }
 /*-- contact --*/
-.w3layouts_mail_grid_right input[type="text"], .w3layouts_mail_grid_right input[type="email"], .w3layouts_mail_grid_right textarea {
+.w3layouts_mail_grid_right input[type="text"], .w3layouts_mail_grid_right input[type="password"], .w3layouts_mail_grid_right input[type="email"],.w3layouts_mail_grid_right textarea {
     outline: none;
     padding: 10px;
     font-size: 14px;
