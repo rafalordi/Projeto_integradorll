@@ -1,10 +1,10 @@
 <?php
-$host = "localhost";
+$host = "127.0.0.1";
 $user = "root";
 $pass = "";
-$banco = "helper";
-$conexao = @mysql_connect($host,$user,$pass) or die(mysql_error());
-@mysql_select_db($banco) or die(mysql_error());
+$banco = "pi";
+$conexao = @mysqli_connect($host,$user,$pass) or die(mysqli_error());
+@mysqli_select_db($banco) or die(mysqli_error());
 ?>
 <?php
 
@@ -12,17 +12,17 @@ $email=$_POST['email'];
 $senha=$_POST['senha'];
 
 //$nome = mysql_query("SELECT nome FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
-$sql = @mysql_query("SELECT * FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
-$row = @mysql_num_rows($sql);
-$sql = @mysql_query("Select nome From pessoa WHERE email = '$email' and senha = '$senha'");
-$exibe = @mysql_fetch_assoc($sql);
+$sql = @mysqli_query($conexao, "SELECT * FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysqli_error());
+$row = @mysqli_num_rows($sql);
+$sql = @mysqli_query($conexao, "SELECT nome From pessoa WHERE email = '$email' and senha = '$senha'");
+$exibe = @mysqli_fetch_assoc($sql);
 
-$id = @mysql_query("SELECT id_pessoa FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
-$meuid = @mysql_fetch_assoc($id);
+$id = @mysqli_query($conexao, "SELECT id_pessoa FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysqli_error());
+$meuid = @mysqli_fetch_assoc($id);
 
 
-$telefone = @mysql_query("SELECT telefone FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
-$meutelefone = @mysql_fetch_assoc($telefone);
+$telefone = @mysqli_query($conexao, "SELECT telefone FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysqli_error());
+$meutelefone = @mysqli_fetch_assoc($telefone);
 
 
 

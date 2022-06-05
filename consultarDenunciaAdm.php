@@ -47,7 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			$(html,body).animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script> 
@@ -283,7 +283,7 @@ while($row=@mysql_fetch_object($result)) {
 	<script type="text/javascript">
 		$(document).ready(function() {
 				
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			$().UItoTop({ easingType: easeOutQuart });
 								
 			});
 	</script>

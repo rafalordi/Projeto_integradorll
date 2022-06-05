@@ -4,10 +4,10 @@
  
  
 $imagem = $_FILES["imagem"];
-$host = "localhost";
+$host = "127.0.0.1";
 $username = "root";
 $password = "";
-$db = "helper";
+$db = "PI";
 $descricao = $_POST["descricao"];
 //$inteiro = (string) $_SESSION['id_pessoa'];
 $id = $_SESSION['id_pessoa'];

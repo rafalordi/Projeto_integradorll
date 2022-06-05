@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$servername = "localhost";
+$servername = "127.0.0.1";
 $username = "root";
 $password = "";
-$dbname = "helper";
+$dbname = "pi";
 $id = $_SESSION['id_pessoa'];
 $nome = $_SESSION['nome'];
 $email = $_SESSION['email'];
@@ -26,30 +26,30 @@ $sql = "UPDATE pessoa SET nome='$novonome',email='$novoemail',telefone='$novotel
 
 if ($conn->query($sql) === TRUE) {
 
-$host = 'localhost';
+$host = '127.0.0.1';
 $user = 'root';
 $pass = '';
-$banco = 'helper';
+$banco = 'pi';
 	
 	
-$conexao = @mysql_connect($host,$user,$pass) or die(mysql_error());
-@mysql_select_db($banco) or die(mysql_error());	
+$conexao = @mysqli_connect($host,$user,$pass) or die(mysqli_error());
+@mysqli_select_db($banco) or die(mysqli_error());	
 	
 	
-$senhaa = @mysql_query("SELECT senha FROM pessoa WHERE id_pessoa=$id") or die(mysql_error());
-$minhasenha = @mysql_fetch_assoc($senhaa);	
+$senhaa = @mysqli_query("SELECT senha FROM pessoa WHERE id_pessoa=$id") or die(mysqli_error());
+$minhasenha = @mysqli_fetch_assoc($senhaa);	
 	
-$nomee = @mysql_query("SELECT nome FROM pessoa WHERE id_pessoa=$id") or die(mysql_error());
-$meunome = @mysql_fetch_assoc($nomee);
+$nomee = @mysqli_query("SELECT nome FROM pessoa WHERE id_pessoa=$id") or die(mysqli_error());
+$meunome = @mysqli_fetch_assoc($nomee);
 	
-$emaill = @mysql_query("SELECT email FROM pessoa WHERE id_pessoa=$id") or die(mysql_error());
-$meuemail = @mysql_fetch_assoc($emaill);	
+$emaill = @mysqli_query("SELECT email FROM pessoa WHERE id_pessoa=$id") or die(mysqli_error());
+$meuemail = @mysqli_fetch_assoc($emaill);	
 	
-$idd = @mysql_query("SELECT id_pessoa FROM pessoa WHERE id_pessoa=$id") or die(mysql_error());
-$meuid = @mysql_fetch_assoc($idd);
+$idd = @mysqli_query("SELECT id_pessoa FROM pessoa WHERE id_pessoa=$id") or die(mysqli_error());
+$meuid = @mysqli_fetch_assoc($idd);
 
-$telefonee = @mysql_query("SELECT telefone FROM pessoa WHERE id_pessoa=$id") or die(mysql_error());
-$meutelefone = @mysql_fetch_assoc($telefonee);
+$telefonee = @mysqli_query("SELECT telefone FROM pessoa WHERE id_pessoa=$id") or die(mysqli_error());
+$meutelefone = @mysqli_fetch_assoc($telefonee);
 	
 	session_destroy();
 	session_start();

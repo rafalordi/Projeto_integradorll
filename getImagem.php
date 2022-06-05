@@ -5,8 +5,8 @@ $id = $_SESSION['id_pessoa'];
 
 
    $nome_imagem = $_GET['pessoa_id_pessoa'];
-$conexao = mysqli_connect($conexao,'localhost', 'root', '', 'helper');
-$consulta = mysqli_query("select imagem from denuncia where ".$nome_imagem." = ".$id);
+$conexao = mysqli_connect($conexao,'127.0.0.1', 'root', '', 'pi');
+$consulta = mysqli_query($conexao, "select imagem from denuncia where ".$nome_imagem." = ".$id);
 //como o nome da imagem deve ser unico, apenas um registro deveria ser 
 //retornado
 $resultado = mysqli_fetch_assoc($consulta);

@@ -22,17 +22,17 @@ $senha=$_POST['senha'];
 $sql = mysqli_query($conn, "INSERT INTO pessoa(nome, telefone, email, senha)
 VALUES('$nome', '$telefone', '$email', '$senha')");
 
-$sql = mysqli_query($conn, "SELECT * FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
+$sql = mysqli_query($conn, "SELECT * FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysqli_error());
 $row = mysqli_num_rows($sql);
-$sql = mysqli_query("Select nome From pessoa WHERE email = '$email' and senha = '$senha'");
+$sql = mysqli_query($conn, "Select nome From pessoa WHERE email = '$email' and senha = '$senha'");
 $exibe = mysqli_fetch_assoc($sql);
 
 
-$id = @mysqli_query($conn, "SELECT id_pessoa FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
+$id = @mysqli_query($conn, "SELECT id_pessoa FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysqli_error());
 $meuid = @mysqli_fetch_assoc($id);
 
 
-$telefone = @mysqli_query($conn, "SELECT telefone FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysql_error());
+$telefone = @mysqli_query($conn, "SELECT telefone FROM pessoa WHERE email = '$email' and senha = '$senha'") or die(mysqli_error());
 $meutelefone = @mysqli_fetch_assoc($telefone);
 
 

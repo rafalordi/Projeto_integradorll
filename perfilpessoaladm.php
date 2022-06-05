@@ -31,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			$(html,body).animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script> 
@@ -240,14 +240,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		$(document).ready(function() {
 			/*
 				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
+				containerID: toTop, // fading element id
+				containerHoverID: toTopHover, // fading element hover id
 				scrollSpeed: 1200,
-				easingType: 'linear' 
+				easingType: linear
 				};
 			*/
 								
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			$().UItoTop({ easingType: easeOutQuart });
 								
 			});
 	</script>

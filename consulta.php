@@ -47,7 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			$(html,body).animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script> 
@@ -118,23 +118,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3layouts_mail_grids">
 				<div class="col-md-8 w3layouts_mail_grid_right">';
 	
-$host = "localhost";
+$host = "127.0.0.1";
 $username = "root";
 $password = "";
-$db = "helper";
+$db = "PI";
 $id = $_SESSION['id_pessoa'];
 $nome = $_SESSION['nome'];
 $telefone = $_SESSION['telefone'];
 $email = $_SESSION['email'];
 
-@mysql_connect($host,$username,$password) or die("Impossível conectar ao banco."); 
-mysql_select_db($db);
+$conn = mysqli_connect($host, $username, $password, $db);
+
+///@mysqli_connect($host,$username,$password) or die("Impossível conectar ao banco."); 
+//mysqli_select_db($db);
 
 
-$sqltest = mysql_query("Select count(descricao) as cont From denuncia WHERE pessoa_id_pessoa = $id");
-$test = mysql_fetch_assoc($sqltest);
+$sqltest = mysqli_query($conn, "SELECT count(descricao) as cont From denuncia WHERE pessoa_id_pessoa = $id");
+$test = mysqli_fetch_assoc($sqltest);
 
-$sql = mysql_query("Select descricao, imagem From denuncia WHERE pessoa_id_pessoa = $id");
+$sql = mysqli_query($conn, "SELECT descricao, imagem From denuncia WHERE pessoa_id_pessoa = $id");
 //$exibe = mysql_fetch_array($sql, MYSQL_NUM);
 
 
@@ -167,12 +169,12 @@ width="300px" height="300px" align="#">';
 $a = 1;
 
 
-$sth = mysql_query("SELECT imagem,descricao,id_denuncia FROM denuncia WHERE pessoa_id_pessoa = ".$_SESSION['id_pessoa']);
+$sth = mysqli_query($conn, "SELECT imagem,descricao,id_denuncia FROM denuncia WHERE pessoa_id_pessoa = ".$_SESSION['id_pessoa']);
 
 
 	
 	
-	while ($row = mysql_fetch_object($sth)) {
+	while ($row = mysqli_fetch_object($sth)) {
 	
 	$arq_destino = 'Blob'.$row->id_denuncia.'.JPG';
 	$conteudo_blob = $row->imagem;
@@ -286,7 +288,7 @@ while($row=@mysql_fetch_object($result)) {
 	<script type="text/javascript">
 		$(document).ready(function() {
 				
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			$().UItoTop({ easingType: easeOutQuart });
 								
 			});
 	</script>
