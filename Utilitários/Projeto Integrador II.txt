@@ -1,0 +1,33 @@
+Fotos
+Link Univesp
+
+Linhas de Código
+
+
+linha 27 - html (href)
+linha 101 do site univesp em html                  Abrindo o Bash no VSC     https://www.youtube.com/watch?v=fPrcKh11GY8
+
+linha 312 Raony css
+linha 937 css
+
+Outras páginas 77 à 84                                37linha
+
+CollElectric
+HelperEco
+HelperElectro                                        Fazer Ariel: Fotos/Quadrado Senha/Balão Verde 
+HelperTec
+
+Linha 322 index | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+
+Linha 29 html <link href="//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Raleway:100,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+
+Linha 197 HTML <a href="cadastro.html">Cadastre-se para Descartar</a>
+
+
+Linha 24 CADASTRO <link href="//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Raleway:100,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!-- //font -->
