@@ -68,7 +68,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Solicitações <b class="caret"></b></a>
 										<ul class="dropdown-menu">
 											<li><a href="solicitacao.php">Solicitar</a></li>
-											<li><a href="consultaSolicitacao.php">Consultar Solicitações</a></li>
+											<li><a href="consulta.php">Consultar Solicitações</a></li>
 										</ul>
 									</li>
 									<li><a href="logout.php">Sair</a></li>
