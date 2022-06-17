@@ -68,8 +68,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Denúncias <b class="caret"></b></a>
 										<ul class="dropdown-menu">
-											<li><a href="areadedenuncia.php">Denunciar</a></li>
-											<li><a href="consulta.php">Consultar Denúncias</a></li>
+											<li><a href="solicitacao.php">Solicitar</a></li>
+											<li><a href="consulta.php">Consultar Solicitações</a></li>
 										</ul>
 									</li>
 									<li><a href="logout.php">Sair</a></li>
@@ -217,7 +217,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 					<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
-						<li class="text"><a href="areadedenuncia.php">Denuncia</a></li>
+						<li class="text"><a href="solicitacao.php">Solicitar</a></li>
 						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
 						<li class="text"><a href="logout.php">Sair</a></li>
 						
