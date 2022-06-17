@@ -65,7 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul class="nav navbar-nav">
 									<li class="first-list"><a href="indexpessoal.php">Página Inicial</a></li>
 									<li><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
-									<li><a href="denuncia.php">Denuncia</a></li>
+									<li><a href="solicitacao.php">Solicitar</a></li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Perfil <b class="caret"></b></a>
 										<ul class="dropdown-menu">
@@ -146,7 +146,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 					<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
-						<li class="text"><a href="areadedenuncia.php">Denuncia</a></li>
+						<li class="text"><a href="solicitacao.php">Solicitar</a></li>
 						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
 						<li class="text"><a href="logout.php">Sair</a></li>
 						
