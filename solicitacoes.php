@@ -25,7 +25,7 @@ VALUES('$nome', '$telefone', '$email', '$assunto', '$descricao')");
 
 
 
-header("Location:suporteenviado.html");
+header("Location:solicitacaoRecebida.php");
 
 	
 ?>
