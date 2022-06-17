@@ -80,7 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul class="nav navbar-nav">
 								<li class="first-list"><a href="indexpessoaladm.php">Página Inicial</a></li>
 									<li><a href="perfilpessoaladm.php">'.$_SESSION["nome"].'</a></li>
-									<li><a class="active" href="consultarDenunciaAdm.php">Consultar Denúncias</a></li>
+									<li><a class="active" href="consultarDenunciaAdm.php">Consultar Solicitações</a></li>
 									<li><a href="logout.php">Sair</a></li>
 									
 
@@ -256,7 +256,7 @@ while($row=@mysql_fetch_object($result)) {
 					<ul>
 					<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
-						<li class="text"><a href="areadedenuncia.php">Denuncia</a></li>
+						<li class="text"><a href="consultarDenunciaAdm.php">Solicitações</a></li>
 						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
 						<li class="text"><a href="logout.php">Sair</a></li>
 						
