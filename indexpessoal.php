@@ -50,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3layouts-logo">
 				<h1>
-					<a href="index.html">HelperTec </a>
+					<a href="indexpessoal.php">HelperTec </a>
 				</h1>
 			</div>
 			<div class="top-nav">
@@ -69,7 +69,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li class="first-list"><a class="active" href="indexpessoal.php">Página Inicial</a></li>
 									<li><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 									<li class="dropdown">
-										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Denúncias <b class="caret"></b></a>
+										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Solicitações <b class="caret"></b></a>
 										<ul class="dropdown-menu">
 											<li><a href="solicitacao.php">Solicitar</a></li>
 											<li><a href="consulta.php">Consultar Solicitações</a></li>
@@ -88,15 +88,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="agileinfo-social-grids">
 				<ul>
-					<li><a href="https://www.facebook.com/Definir-111116794904391"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.facebook.com/Definir-111116794904391"target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
 				
 				</ul>
 			</div>
 			<div class="agileinfo-social-grids2">
-				<!-- <ul>
-					<li><a href="https://univesp.br"><i class="fa fa-facebook"></i></a></li>
-				
-				</ul> -->
 			</div>
 			<div class="clearfix"> </div>
 			</div>
@@ -112,11 +108,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Descarte de Lixo Eletônico</h3>
 										<div class="banner_form_agileits">
-										<h5>Inscreva-se para contribuir</h5>
 										
-												
-											
-												<a href="cadastro.html"><input type="button" value="Inscrever-se"></a>
 												<div class="clearfix"></div>
 											
 										</div>
@@ -128,11 +120,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Contribua com o meio ambiente</h3>
 										<div class="banner_form_agileits">
-										<h5>Inscreva-se para contribuir</h5>
 										
-												
-												
-												<a href="cadastro.html"><input type="button" value="Inscrever-se"></a>
 												<div class="clearfix"></div>
 											
 										</div>
@@ -143,11 +131,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Faça sua parte</h3>
 										<div class="banner_form_agileits">
-											<h5>Inscreva-se para contribuir</h5>
 											
-												
-												
-												<a href="cadastro.html"><input type="button" value="Inscrever-se"></a>
 												<div class="clearfix"></div>
 											
 										</div>
@@ -281,6 +265,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 							</div>
 						</li>
+						<li>
+						<div class="w3l-info1">
+							<div class="col-md-3 testimonials-grid-1">
+								<img src="fotos/REEECicle.png" alt=""  />
+							</div>
+							<div class="col-md-9 testimonials-grid-2">
+								<h4>Sabe como a coleta pode ser feita?</h4>
+								<h5>Empresa de reciclagem coleta 100 toneladas de eletrônicos em domicílio.</h5>
+								<p>Empresa criada em Pernambuco, a REEECicle faz a coleta de materiais eletrônicos em residências de forma rápida e gratuita. Você pode saber mais sobre o assunto <a href="https://www.uol.com.br/ecoa/ultimas-noticias/2022/06/16/empresa-de-reciclagem-cria-coleta-de-material-eletronico-em-domicilio-em-pe.htm"target="_blank" rel="noopener noreferrer">Clicando Aqui</a>.</p>
+							</div>
+						</div>
+					</li>
 					</ul>
 				</div>
 			</section>
@@ -294,7 +290,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
 				
 				<div class="col-md-2 agile-footer-grid">
@@ -396,5 +392,15 @@ $(function() {
 			});
 	</script>
 	<!-- //here ends scrolling icon -->
+	<div vw class="enabled">
+		<div vw-access-button class="active"></div>
+		<div vw-plugin-wrapper>
+		  <div class="vw-plugin-top-wrapper"></div>
+		</div>
+	  </div>
+	  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+	  <script>
+		new window.VLibras.Widget('https://vlibras.gov.br/app');
+	  </script>
 </body>	
 </html>

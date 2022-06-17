@@ -1943,7 +1943,7 @@ pre code {
     width: 58.33333333%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 60%;
   }
   .col-md-5 {
     width: 41.66666667%;
@@ -5094,7 +5094,7 @@ a.thumbnail.active {
   zoom: 1;
 }
 .media-body {
-  width: 10000px;
+  width: 1px;
 }
 .media-object {
   display: block;

@@ -63,9 +63,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
 									<li class="first-list"><a href="indexpessoal.php">Página Inicial</a></li>
-									<li><a class="active" href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
+									<li><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 									<li class="dropdown">
-										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Solicitações <b class="caret"></b></a>
+										<a class="active" href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Solicitações <b class="caret"></b></a>
 										<ul class="dropdown-menu">
 											<li><a href="solicatacoes.html">Solicitar</a></li>
 											<li><a href="consultaSolicitacoes.php">Consultar Solicitações</a></li>
@@ -101,7 +101,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>	
 				</div>
 				<div class="col-md-8 w3layouts_mail_grid_right">
-					<font color="red"><h1>Sua denúncia foi enviada com sucesso!!!</h1></font><br><br>
+					<font color="red"><h1>Sua solicitação foi enviada com sucesso!!!</h1></font><br><br>
 					<form action="solicitacoes.php" method="post">
 						<div class="col-md-6 wthree_contact_left_grid">
 							<input type="text" name="nome" placeholder="Nome" required="">

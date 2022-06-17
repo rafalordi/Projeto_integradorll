@@ -82,15 +82,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="agileinfo-social-grids">
 				<ul>
-					<li><a href="https://www.facebook.com/Definir-111116794904391"><i class="fa fa-facebook"></i></a></li>
-				
+				<li><a href="https://www.facebook.com/Definir-111116794904391"target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
 				</ul>
 			</div>
 			<div class="agileinfo-social-grids2">
-				<!-- <ul>
-					<li><a href="https://univesp.br"><i class="fa fa-facebook"></i></a></li>
-				
-				</ul> -->
 			</div>
 			<div class="clearfix"> </div>
 			</div>
@@ -106,11 +101,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Descarte de Lixo Eletônico</h3>
 										<div class="banner_form_agileits">
-										<h5>Inscreva-se para contribuir</h5>
 										
-												
-											
-												<a href="cadastro.html"><input type="button" value="Inscrever-se"></a>
 												<div class="clearfix"></div>
 											
 										</div>
@@ -122,11 +113,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Contribua com o meio ambiente</h3>
 										<div class="banner_form_agileits">
-										<h5>Inscreva-se para contribuir</h5>
 										
-												
-												
-												<a href="cadastro.html"><input type="button" value="Inscrever-se"></a>
 												<div class="clearfix"></div>
 											
 										</div>
@@ -137,11 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Faça sua parte</h3>
 										<div class="banner_form_agileits">
-											<h5>Inscreva-se para contribuir</h5>
-											
-												
-												
-												<a href="cadastro.html"><input type="button" value="Inscrever-se"></a>
+										
 												<div class="clearfix"></div>
 											
 										</div>
@@ -158,7 +141,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		</div>
 	</div>
-	<!-- //banner -->
+		<!-- //banner -->
 	<!-- modal -->
 	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
@@ -288,9 +271,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
-				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.9649046331897!2d-46.776306999999996!3d-22.20344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjLCsDEyJzEyLjQiUyA0NsKwNDYnMzQuNyJX!5e0!3m2!1spt-BR!2sbr!4v1654110271880!5m2!1spt-BR!2sbr" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				<div class="col-md-2 agile-footer-grid">
 					<h4>Linhas do (REEE)</h4>
 					<ul>
@@ -389,5 +372,16 @@ $(function() {
 			});
 	</script>
 	<!-- //here ends scrolling icon -->
+	<div vw class="enabled">
+		<div vw-access-button class="active"></div>
+		<div vw-plugin-wrapper>
+		  <div class="vw-plugin-top-wrapper"></div>
+		</div>
+	  </div>
+	  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+	  <script>
+		new window.VLibras.Widget('https://vlibras.gov.br/app');
+	  </script>
+	  
 </body>	
 </html>

@@ -25,7 +25,7 @@ echo '<head>
 	<ul>
 			<li><a href="#" accesskey="1" title=""><a HREF="indexpessoal.php#">Página Inicial</a></li>
 		<li><a href="#" accesskey="2" title=""><a HREF="perfil.php#">'.$_SESSION["nome"].'</a></li>
-		<li  class="current_page_item"><a href="#" accesskey="3" title=""><a HREF="denuncia.php#">Área de Denúncias</a></li>
+		<li  class="current_page_item"><a href="#" accesskey="3" title=""><a HREF="soliticao.php#">Área de Solicitações</a></li>
 		<li><a href="#" accesskey="4" title=""><a HREF="suportepessoal.php#">Suporte</a></li>
 		<li><a href="#" accesskey="5" title=""><a HREF="sair.php#">Sair</a></li>
 	</ul>
