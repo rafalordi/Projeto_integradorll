@@ -96,7 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="contact">
 		<div class="container">
 		<center><font color="red"><h3>Dados alterados com sucesso!!!</h3></font></center><br><br>
-			<h2 class="heading-agileinfo">Seja Bem-vindo '.$_SESSION['nome'].'<span>HelperTec - Denúncia Online</span></h2>
+			<h2 class="heading-agileinfo">Seja Bem-vindo '.$_SESSION['nome'].'<span>Seus dados foram alterados com sucesso!</span></h2>
 			<div class="w3layouts_mail_grids">
 				<div class="col-md-4 w3layouts_mail_grid_left">
 					
@@ -216,7 +216,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 						<li class="text"><a href="solicitacao.php">Solicitar</a></li>
-						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
+						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
 						
 					</ul>

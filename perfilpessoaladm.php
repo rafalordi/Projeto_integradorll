@@ -85,7 +85,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 	<div class="contact">
 		<div class="container">
-			<h2 class="heading-agileinfo">Seja Bem-vindo '.$_SESSION['nome'].'<span>HelperTec - Denúncia Online</span></h2>
+			<h2 class="heading-agileinfo">Seja Bem-vindo '.$_SESSION['nome'].'<span>Suas credenciais</span></h2>
 			<div class="w3layouts_mail_grids">
 				<div class="col-md-4 w3layouts_mail_grid_left">
 					

@@ -90,20 +90,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 	<div class="contact">
 		<div class="container">
-			<h2 class="heading-agileinfo">Faça sua solicitação<span>Coleta de resíduos eletro-eletrônicos</span></h2>
+			<font color="red"><h2 class="heading-agileinfo">Status da solicitação<span>Sua solicitação foi enviada com sucesso!!!</span></h2>
 			<div class="w3layouts_mail_grids">
 				<div class="col-md-4 w3layouts_mail_grid_left">
 					<div class="footer-grids1f2">
-						<h3>E-mail</h3>
+					<!-- <h3>E-mail</h3>
 						<p><a href="mailto:info@example.com">helpertec.suporte@hotmail.com</a></p>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.9649046331897!2d-46.776306999999996!3d-22.20344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjLCsDEyJzEyLjQiUyA0NsKwNDYnMzQuNyJX!5e0!3m2!1spt-BR!2sbr!4v1654110271880!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.9649046331897!2d-46.776306999999996!3d-22.20344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjLCsDEyJzEyLjQiUyA0NsKwNDYnMzQuNyJX!5e0!3m2!1spt-BR!2sbr!4v1654110271880!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 						
 					</div>	
 				</div>
 				<div class="col-md-8 w3layouts_mail_grid_right">
-					<font color="red"><h1>Sua solicitação foi enviada com sucesso!!!</h1></font><br><br>
+					<!-- <font color="red"><h1>Sua solicitação foi enviada com sucesso!!!</h1></font><br><br> -->
 					<form action="solicitacoes.php" method="post">
-						<div class="col-md-6 wthree_contact_left_grid">
+					<!-- <div class="col-md-6 wthree_contact_left_grid">
 							<input type="text" name="nome" placeholder="Nome" required="">
 							<input type="text" name="rua"  placeholder="Rua" required="">
 							<input type="text" name="numero"  placeholder="Número" required="">
@@ -177,21 +177,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<input type="checkbox" id="dezesete" name="dezesete" value="Outros">
 							<label for="dezesete">Outros</label>
 							</div>	
-							<input type="text" name="volume"  placeholder="Volume Estimado" required="">	
+							<input type="text" name="volume"  placeholder="Volume Estimado" required=""> 	
 							
-						</div>
-						<div class="col-md-6 wthree_contact_left_grid">
+						</div> 
+						 <div class="col-md-6 wthree_contact_left_grid">
 							<input type="email" name="email" placeholder="E-mail" required="">
 							<input type="text" name="telefone" placeholder="Telefone" required="">
 							
-						</div>
+						</div> 
 						
-						<div class="clearfix"> </div>
+						<div class="clearfix"> </div> 
 						
 						<input type="submit" value="Enviar">
-						<input type="reset" value="Limpar">
+						<input type="reset" value="Limpar"> -->
+						
 					</form>
-				</div>
+				</div> 
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -220,7 +221,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 						<li class="text"><a href="areadedenuncia.php">Denuncia</a></li>
-						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
+						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
 					</ul>
 				</div>
@@ -262,8 +263,4 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		new window.VLibras.Widget("https://vlibras.gov.br/app");
 	  </script>
 </body>	
-</html>';
-?>
-
-
-
+</html>

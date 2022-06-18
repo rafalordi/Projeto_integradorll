@@ -258,6 +258,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 							</div>
 						</li>
+						<li>
+						<div class="w3l-info1">
+							<div class="col-md-3 testimonials-grid-1">
+								<img src="fotos/REEECicle.png" alt=""  />
+							</div>
+							<div class="col-md-9 testimonials-grid-2">
+								<h4>Sabe como a coleta pode ser feita?</h4>
+								<h5>Empresa de reciclagem coleta 100 toneladas de eletrônicos em domicílio.</h5>
+								<p>Empresa criada em Pernambuco, a REEECicle faz a coleta de materiais eletrônicos em residências de forma rápida e gratuita. Você pode saber mais sobre o assunto <a href="https://www.uol.com.br/ecoa/ultimas-noticias/2022/06/16/empresa-de-reciclagem-cria-coleta-de-material-eletronico-em-domicilio-em-pe.htm"target="_blank" rel="noopener noreferrer">Clicando Aqui</a>.</p>
+							</div>
+						</div>
+					</li>
 					</ul>
 				</div>
 			</section>
@@ -273,7 +285,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Sobre nosso site</h4>
 					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.9649046331897!2d-46.776306999999996!3d-22.20344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjLCsDEyJzEyLjQiUyA0NsKwNDYnMzQuNyJX!5e0!3m2!1spt-BR!2sbr!4v1654110271880!5m2!1spt-BR!2sbr" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				<div class="col-md-2 agile-footer-grid">
 					<h4>Linhas do (REEE)</h4>
 					<ul>
@@ -291,9 +302,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li class="text"><a href="consultarDenunciaAdm.php">Solicitações</a></li>
 						<li class="text"><a href="logout.php">Sair</a></li>
 					</ul>
-				</div>';
-				?>
-				<div class="clearfix"> </div>
+				</div>
+								<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
@@ -302,7 +312,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- footer -->
 <div class="copy-right">
 	<div class="container">
-			<p> &copy; 2018 Travel . All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+			<p> &copy; 2022 HelperTec. Todos os direitos reservados. </p>
 	</div>
 </div>
 <!-- //footer -->

@@ -114,7 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	echo'	<div class="contact">
 		<div class="container">
-			<h2 class="heading-agileinfo">Consulta de Solicitações<span>HelperTec - Relato Online</span></h2>
+			<h2 class="heading-agileinfo">Consulta de Solicitações<span>Consulte as suas solicitações aqui</span></h2>
 			<div class="w3layouts_mail_grids">
 				<div class="col-md-8 w3layouts_mail_grid_right">';
 	
@@ -262,7 +262,7 @@ while($row=@mysql_fetch_object($result)) {
 					<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 						<li class="text"><a href="solicitacao.php">Solicitar</a></li>
-						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
+						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
 						
 					</ul>
@@ -304,5 +304,4 @@ while($row=@mysql_fetch_object($result)) {
 	new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
 </body>	
-</html>';
-?>
+</html>
