@@ -13,9 +13,16 @@ $bairro=$_POST['bairro'];
 $email=$_POST['email'];
 $telefone=$_POST['telefone'];
 
+$material=$_POST['material'];
+$volume=$_POST['volume'];
+$data=date('d/m/Y');
+
 
 $sql = mysqli_query($conn, "INSERT INTO usuario(nome, rua, numero, bairro, email, telefone) 
 VALUES('$nome', '$rua', '$numero', '$bairro', '$email', '$telefone')");
+
+$sql = mysqli_query($conn, "INSERT INTO coleta(volumeEstimado, tipoMaterial, dataColeta) 
+VALUES('$volume', '$material', '$data')");
 
 
 header("Location:solicitacaoRecebida.php");

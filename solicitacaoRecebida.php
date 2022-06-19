@@ -4,7 +4,7 @@ session_start();
 
 
 
-echo '<html lang="en">
+echo '<html lang="pt-br">
 <head>
 <link rel="icon" 
       type="image/png" 
@@ -31,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			$("html,body").animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script> 
@@ -63,7 +63,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
 									<li class="first-list"><a href="indexpessoal.php">Página Inicial</a></li>
-									<li><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
+									<li><a href="perfilpessoal.php">".$_SESSION["nome"]."</a></li>
 									<li class="dropdown">
 										<a class="active" href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Solicitações <b class="caret"></b></a>
 										<ul class="dropdown-menu">
@@ -219,7 +219,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Navegação</h4>
 					<ul>
 						<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
-						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
+						<li class="text"><a href="perfilpessoal.php">".$_SESSION["nome"]."</a></li>
 						<li class="text"><a href="areadedenuncia.php">Denuncia</a></li>
 						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
@@ -246,7 +246,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script type="text/javascript">
 		$(document).ready(function() {
 				
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			$().UItoTop({ easingType: "easeOutQuart" });
 								
 			});
 	</script>

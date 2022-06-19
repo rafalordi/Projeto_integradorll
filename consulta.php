@@ -260,7 +260,7 @@ while($row=@mysql_fetch_object($result)) {
 					<h4>Navegação</h4>
 					<ul>
 					<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
-						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
+					<li class="text"><a href="perfilpessoal.php">".$_SESSION["nome"]."</a></li>
 						<li class="text"><a href="solicitacao.php">Solicitar</a></li>
 						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
@@ -271,6 +271,7 @@ while($row=@mysql_fetch_object($result)) {
 			</div>
 		</div>
 	</div>
+	
 	<!-- //footer -->
 
 <!-- footer -->
@@ -301,7 +302,7 @@ while($row=@mysql_fetch_object($result)) {
   </div>
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script>
-	new window.VLibras.Widget('https://vlibras.gov.br/app');
+	new window.VLibras.Widget("https://vlibras.gov.br/app");
   </script>
 </body>	
 </html>
