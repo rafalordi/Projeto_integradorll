@@ -2,9 +2,9 @@
 $host = "127.0.0.1";
 $user = "root";
 $pass = "";
-$banco = "pi";
-$conexao = @mysqli_connect($host,$user,$pass) or die(mysqli_error());
-@mysqli_select_db($banco) or die(mysqli_error());
+$banco = "PI";
+$conexao = @mysqli_connect($host,$user,$pass,$banco) or die(mysqli_error());
+//@mysqli_select_db($banco) or die(mysqli_error());
 ?>
 <?php
 
