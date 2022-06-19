@@ -1,9 +1,25 @@
-
 <?php
+/*$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "helper";
+
+
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Connected successfully"; 
+    }
+catch(PDOException $e)
+    {
+    echo "Connection failed: " . $e->getMessage();
+    }
+*/
 
 session_start();
 
-
+	
 
 echo '<html lang="en">
 <head>
@@ -67,8 +83,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Solicitações <b class="caret"></b></a>
 										<ul class="dropdown-menu">
-											<li><a class="active" href="areadedenuncia.php">Solicitar</a></li>
-											<li><a href="consulta.php">Consultar Solicitações</a></li>
+											<li><a href="solicitacao.php">Solicitar</a></li>
+											<li><a class="active" href="consulta.php">Consultar Solicitações</a></li>
 										</ul>
 									</li>
 									<li><a href="logout.php">Sair</a></li>
@@ -82,45 +98,144 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="agileinfo-social-grids">
 				<ul>
-				<li><a href="https://www.facebook.com/Definir-111116794904391"target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>	
-					
-					
+				<li><a href="https://www.facebook.com/Definir-111116794904391"target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>						
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
+	</div>';
 
 	
-		<div class="contact">
+		
+		
+
+	echo'	<div class="contact">
 		<div class="container">
-			<h2 class="heading-agileinfo">Enviar Arquivo<span>Anexe aqui o seu arquivo</span></h2>
+			<h2 class="heading-agileinfo">Consulta de Solicitações<span>Consulte as solicitações aqui</span></h2>
 			<div class="w3layouts_mail_grids">
-				<div class="col-md-4 w3layouts_mail_grid_left">
-					<div class="footer-grids1f2">
-						<h3>E-mail</h3>
-						<p><a href="mailto:info@example.com">helpertec.suporte@hotmail.com</a></p>
-					</div>	
-				</div>
-				<div class="col-md-8 w3layouts_mail_grid_right">
-					<form action="recebeDenuncia.php" method="post" enctype="multipart/form-data">
-						
-						<div class="col-md-6 wthree_contact_left_grid">
-							<input type="file" name="imagem" required="">
-							<br><br><br>
-						</div>
-						<div class="clearfix"> </div>
-						<textarea name="descricao" placeholder="Descrição..." required=""></textarea>
-						<input type="submit" value="Enviar">
-						<input type="reset" value="Limpar">
-					</form>
-				</div>
+				<div class="col-md-8 w3layouts_mail_grid_right">';
+	
+$host = "127.0.0.1";
+$username = "root";
+$password = "";
+$db = "PI";
+$id = $_SESSION['id_pessoa'];
+$nome = $_SESSION['nome'];
+$telefone = $_SESSION['telefone'];
+$email = $_SESSION['email'];
+
+$conn = mysqli_connect($host, $username, $password, $db);
+
+///@mysqli_connect($host,$username,$password) or die("Impossível conectar ao banco."); 
+//mysqli_select_db($db);
+
+
+$sqltest = mysqli_query($conn, "SELECT count(descricao) as cont From denuncia WHERE pessoa_id_pessoa = $id");
+$test = mysqli_fetch_assoc($sqltest);
+
+$sql = mysqli_query($conn, "SELECT descricao, imagem From denuncia WHERE pessoa_id_pessoa = $id");
+//$exibe = mysql_fetch_array($sql, MYSQL_NUM);
+
+
+
+ //while ($a < $test) {
+         
+		//echo $row[$a];
+		//$a = $a + 1;
+   // }
+
+   
+   
+
+   
+   /*
+   
+    while ($row = mysql_fetch_array($sql, MYSQL_NUM)) {
+        echo '<center>';
+		echo '<img src="obterImagens.php?pessoa_id_pessoa=$id" class="img-responsive" 
+width="300px" height="300px" align="#">';
+		echo $row[0];
+		echo '<br><br>';
+		echo '</center>';
+    }
+
+
+
+
+*/
+$a = 1;
+
+
+$sth = mysqli_query($conn, "SELECT imagem,descricao,id_denuncia FROM denuncia WHERE pessoa_id_pessoa = ".$_SESSION['id_pessoa']);
+
+
+	
+	
+	while ($row = mysqli_fetch_object($sth)) {
+	
+	$arq_destino = 'Blob'.$row->id_denuncia.'.JPG';
+	$conteudo_blob = $row->imagem;
+	$img_blob = imagecreatefromstring($conteudo_blob);
+	imagejpeg($img_blob, $arq_destino)or die('No foi possvel criar o arquivo .'. $arq_destino . '.');
+	
+	echo '<b><font face="Arial" size="+5" align="center">Denúncia '.$a.'</font> <br><br>';
+	echo '<tr><td colspan="2"><div align="center"><img src="'.$arq_destino.'" width="1200px" height="900px" align="center"></div></td></tr><br><br>';
+	echo '<font color="#000066" face="Arial" size="+2" align="center">'.$row->descricao.'</font><br><br><br><br><br><br><br><br><br><br><br>';
+	
+	$a = $a +1;
+	
+}
+
+	
+	echo '<br><br><br><br><font color="#990000" face="Arial" size="+2" align="center">Dados do delator: <br><br> Nome: '.$nome.'<br>Email: '.$email.'<br>Telefone: '.$telefone.'</font>';
+
+
+
+
+
+/*
+$descricao = @mysql_query("SELECT d.descricao FROM denuncia d join pessoa p on (p.id_pessoa = d.pessoa_id_pessoa) AND (d.pessoa_id_pessoa = $id)") or mysqli_error();
+$exibe = mysql_fetch_assoc($descricao);
+
+echo $exibe["descricao"];*/
+
+/*@mysql_connect($host,$username,$password) or die("Impossível conectar ao banco."); 
+ 
+@mysql_select_db($db) or die("Impossível conectar ao banco"); 
+ 
+$result=@mysql_query("SELECT d.imagem FROM denuncia as d join pessoa as p on (p.id_pessoa = d.pessoa_id_pessoa) WHERE d.pessoa_id_pessoa = $id") or die('vsf wilson'); 
+ 
+while($row=@mysql_fetch_object($result)) { 
+    echo "<img src='getImagem.php?PicNum=$row->pessoa_id_pessoa' \">"; 
+} */
+
+
+			echo'	</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
-	<div class="footer">
+	</div>';
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+	echo '<div class="footer">
 		<div class="container">
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
@@ -144,7 +259,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 					<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
-						<li class="text"><a href="areadedenuncia.php">Denuncia</a></li>
+						<li class="text"><a href="solicitacao.php">Solicitar</a></li>
 						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
 						
@@ -177,14 +292,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //here ends scrolling icon -->
 	<div vw class="enabled">
-		<div vw-access-button class="active"></div>
-		<div vw-plugin-wrapper>
-		  <div class="vw-plugin-top-wrapper"></div>
-		</div>
-	  </div>
-	  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-	  <script>
-		new window.VLibras.Widget('https://vlibras.gov.br/app');
-	  </script>
+	<div vw-access-button class="active"></div>
+	<div vw-plugin-wrapper>
+	  <div class="vw-plugin-top-wrapper"></div>
+	</div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+	new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 </body>	
-</html>
+</html>';
+?>

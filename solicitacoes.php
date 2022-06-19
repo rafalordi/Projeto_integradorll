@@ -18,5 +18,7 @@ $sql = mysqli_query($conn, "INSERT INTO usuario(nome, rua, numero, bairro, email
 VALUES('$nome', '$rua', '$numero', '$bairro', '$email', '$telefone')");
 
 
-header("Location:suporteenviado.html");
+header("Location:solicitacaoRecebida.php");
+
+	
 ?>

@@ -50,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3layouts-logo">
 				<h1>
-					<a href="index.html">HelperTec </a>
+					<a href="indexpessoal.php">HelperTec </a>
 				</h1>
 			</div>
 			<div class="top-nav">
@@ -69,10 +69,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li class="first-list"><a class="active" href="indexpessoal.php">Página Inicial</a></li>
 									<li><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 									<li class="dropdown">
-										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Denúncias <b class="caret"></b></a>
+										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Solicitações <b class="caret"></b></a>
 										<ul class="dropdown-menu">
-											<li><a href="areadedenuncia.php">Denunciar</a></li>
-											<li><a href="consulta.php">Consultar Denúncias</a></li>
+											<li><a href="solicitacao.php">Solicitar</a></li>
+											<li><a href="consulta.php">Consultar Solicitações</a></li>
 										</ul>
 									</li>
 									<li><a href="logout.php">Sair</a></li>
@@ -88,15 +88,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="agileinfo-social-grids">
 				<ul>
-					<li><a href="https://www.facebook.com/Definir-111116794904391"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.facebook.com/Definir-111116794904391"target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
 				
 				</ul>
 			</div>
 			<div class="agileinfo-social-grids2">
-				<!-- <ul>
-					<li><a href="https://univesp.br"><i class="fa fa-facebook"></i></a></li>
-				
-				</ul> -->
 			</div>
 			<div class="clearfix"> </div>
 			</div>
@@ -112,11 +108,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Descarte de Lixo Eletônico</h3>
 										<div class="banner_form_agileits">
-										<h5>Inscreva-se para contribuir</h5>
 										
-												
-											
-												<a href="cadastro.html"><input type="button" value="Inscrever-se"></a>
 												<div class="clearfix"></div>
 											
 										</div>
@@ -128,11 +120,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Contribua com o meio ambiente</h3>
 										<div class="banner_form_agileits">
-										<h5>Inscreva-se para contribuir</h5>
 										
-												
-												
-												<a href="cadastro.html"><input type="button" value="Inscrever-se"></a>
 												<div class="clearfix"></div>
 											
 										</div>
@@ -143,11 +131,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<h4>Bem-Vindo ao HelperTec</h4>
 										<h3>Faça sua parte</h3>
 										<div class="banner_form_agileits">
-											<h5>Inscreva-se para contribuir</h5>
 											
-												
-												
-												<a href="cadastro.html"><input type="button" value="Inscrever-se"></a>
 												<div class="clearfix"></div>
 											
 										</div>
@@ -253,7 +237,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-9 testimonials-grid-2">
 									<h4>Lixo eletrônico</h4>
 									<h5>O que é?</h5>
-									<p>O Lixo Eletrônico possui muitos nomes, como e-lixo, resíduos de equipamento eletroeletrônico (REEE) ou simplesmente resíduo eletrônico. Os termos se referem a produtos elétricos ou eletrônicos que são descartados por não terem mais utilidade, ou seja, poderiam ser reciclados aos invés de destinados em um aterro sanitário. Você pode saber mais sobre o Lixo eletrônico <a href="https://www.todamateria.com.br/lixo-eletronico/">Clicando Aqui</a>.</p>
+									<p>O Lixo Eletrônico possui muitos nomes, como e-lixo, resíduos de equipamento eletroeletrônico (REEE) ou simplesmente resíduo eletrônico. Os termos se referem a produtos elétricos ou eletrônicos que são descartados por não terem mais utilidade, ou seja, poderiam ser reciclados aos invés de destinados em um aterro sanitário. Você pode saber mais sobre o Lixo eletrônico <a href="https://www.todamateria.com.br/lixo-eletronico/"target="_blank" rel="noopener noreferrer">Clicando Aqui</a>.</p>
 								</div>
 							</div>
 						</li>
@@ -265,7 +249,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-9 testimonials-grid-2">
 									<h4>Qual é o impacto do lixo eletrônico no Brasil?</h4>
 									<h5>E o que isso afeta em crianças?</h5>
-									<p> Além dos impactos no planeta já mencionados logo acima; algumas doenças infantis também podem estar associadas ao lixo eletrônico. Esses aspectos incluem: alterações na função pulmonar, efeitos respiratórios, danos ao DNA, prejuízos à função da tireoide e aumento do risco de algumas doenças crônicas tardias, como câncer e doenças cardiovasculares. Você pode saber mais sobre este impacto que os resíduos eletrônicos possam agregar na saúde infantil <a href="https://www.bio.fiocruz.br/index.php/br/noticias/2453-oms-lixo-eletronico-afeta-saude-de-milhoes-de-criancas">Clicando Aqui</a>.</p>
+									<p> Além dos impactos no planeta já mencionados logo acima; algumas doenças infantis também podem estar associadas ao lixo eletrônico. Esses aspectos incluem: alterações na função pulmonar, efeitos respiratórios, danos ao DNA, prejuízos à função da tireoide e aumento do risco de algumas doenças crônicas tardias, como câncer e doenças cardiovasculares. Você pode saber mais sobre este impacto que os resíduos eletrônicos possam agregar na saúde infantil <a href="https://www.bio.fiocruz.br/index.php/br/noticias/2453-oms-lixo-eletronico-afeta-saude-de-milhoes-de-criancas"target="_blank" rel="noopener noreferrer">Clicando Aqui</a>.</p>
 								</div>
 							</div>
 						</li>
@@ -277,10 +261,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-9 testimonials-grid-2">
 									<h4>Como proceder caso possua algum resíduo eletrônico?</h4>
 									<h5>Qual a melhor maneira de "se livrar" disso?</h5>
-									<p>A melhor maneira de descartar estes materiais é levar o lixo eletrônico para pontos de coleta seletiva. Várias cidades no Brasil têm esses pontos de coleta, conhecidos como Ecopontos. Também existem os postos coletores, mercados e revendedores de produtos eletrônicos que aceitam estes materiais. Muitos destes descartes ainda podem ser reaproveitados através de pessoas especializadas no assunto. Quer saber mais sobre este assunto? Então veja sobre a Política Nacional de Resíduos Sólidos (PNRS) <a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm">Clicando Aqui</a>.</p>
+									<p>A melhor maneira de descartar estes materiais é levar o lixo eletrônico para pontos de coleta seletiva. Várias cidades no Brasil têm esses pontos de coleta, conhecidos como Ecopontos. Também existem os postos coletores, mercados e revendedores de produtos eletrônicos que aceitam estes materiais. Muitos destes descartes ainda podem ser reaproveitados através de pessoas especializadas no assunto. Quer saber mais sobre este assunto? Então veja sobre a Política Nacional de Resíduos Sólidos (PNRS) <a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm"target="_blank" rel="noopener noreferrer">Clicando Aqui</a>.</p>
 								</div>
 							</div>
 						</li>
+						<li>
+						<div class="w3l-info1">
+							<div class="col-md-3 testimonials-grid-1">
+								<img src="fotos/REEECicle.png" alt=""  />
+							</div>
+							<div class="col-md-9 testimonials-grid-2">
+								<h4>Sabe como a coleta pode ser feita?</h4>
+								<h5>Empresa de reciclagem coleta 100 toneladas de eletrônicos em domicílio.</h5>
+								<p>Empresa criada em Pernambuco, a REEECicle faz a coleta de materiais eletrônicos em residências de forma rápida e gratuita. Você pode saber mais sobre o assunto <a href="https://www.uol.com.br/ecoa/ultimas-noticias/2022/06/16/empresa-de-reciclagem-cria-coleta-de-material-eletronico-em-domicilio-em-pe.htm"target="_blank" rel="noopener noreferrer">Clicando Aqui</a>.</p>
+							</div>
+						</div>
+					</li>
 					</ul>
 				</div>
 			</section>
@@ -294,9 +290,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
-				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.9649046331897!2d-46.776306999999996!3d-22.20344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjLCsDEyJzEyLjQiUyA0NsKwNDYnMzQuNyJX!5e0!3m2!1spt-BR!2sbr!4v1654110271880!5m2!1spt-BR!2sbr" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				<div class="col-md-2 agile-footer-grid">
 					<h4>Linhas do (REEE)</h4>
 					<ul>
@@ -311,12 +307,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
-						<li class="text"><a href="areadedenuncia.php">Denuncia</a></li>
-						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
+						<li class="text"><a href="solicitacao.php">Solicitar</a></li>
+						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
 					</ul>
-				</div>';
-				?>
+				</div>
+				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -326,7 +322,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- footer -->
 <div class="copy-right">
 	<div class="container">
-			<p> &copy; 2018 Travel . All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+			<p> &copy; 2022 HelperTec. Todos os direitos reservados. </p>
 	</div>
 </div>
 <!-- //footer -->
@@ -396,5 +392,15 @@ $(function() {
 			});
 	</script>
 	<!-- //here ends scrolling icon -->
+	<div vw class="enabled">
+		<div vw-access-button class="active"></div>
+		<div vw-plugin-wrapper>
+		  <div class="vw-plugin-top-wrapper"></div>
+		</div>
+	  </div>
+	  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+	  <script>
+		new window.VLibras.Widget('https://vlibras.gov.br/app');
+	  </script>
 </body>	
 </html>

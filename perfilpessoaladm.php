@@ -62,7 +62,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul class="nav navbar-nav">
 									<li class="first-list"><a href="indexpessoaladm.php">Página Inicial</a></li>
 									<li><a class="active" href="perfilpessoaladm.php">'.$_SESSION["nome"].'</a></li>
-									<li><a href="consultarDenunciaAdm.php">Consultar Denúncias</a></li>
+									<li><a href="consultarDenunciaAdm.php">Consultar Solicitações</a></li>
 									<li><a href="logout.php">Sair</a></li>
 									
 
@@ -74,9 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="agileinfo-social-grids">
 				<ul>
-					<li><a href="https://www.facebook.com/Definir-111116794904391/"><i class="fa fa-facebook"></i></a></li>
-					
-					
+				<li><a href="https://www.facebook.com/Definir-111116794904391"target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -87,7 +85,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 	<div class="contact">
 		<div class="container">
-			<h2 class="heading-agileinfo">Seja Bem-vindo '.$_SESSION['nome'].'<span>HelperTec - Denúncia Online</span></h2>
+			<h2 class="heading-agileinfo">Seja Bem-vindo '.$_SESSION['nome'].'<span>Suas credenciais</span></h2>
 			<div class="w3layouts_mail_grids">
 				<div class="col-md-4 w3layouts_mail_grid_left">
 					
@@ -195,7 +193,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Este site foi desenvolvido por alunos da <a href="https://univesp.br">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
 					<div class="col-md-2 agile-footer-grid">
 						<h4>Linhas do (REEE)</h4>
@@ -213,7 +211,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 					<li class="text"><a href="indexpessoaladm.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoaladm.php">'.$_SESSION["nome"].'</a></li>
-						<li class="text"><a href="consultarDenunciaAdm.php">Consultar Denúncias</a></li>
+						<li class="text"><a href="consultarDenunciaAdm.php">Solicitações</a></li>
 						<li class="text"><a href="logout.php">Sair</a></li>
 						
 					</ul>
@@ -252,6 +250,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 	</script>
 	<!-- //here ends scrolling icon -->
+	<div vw class="enabled">
+	<div vw-access-button class="active"></div>
+	<div vw-plugin-wrapper>
+	  <div class="vw-plugin-top-wrapper"></div>
+	</div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+	new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 </body>	
 </html>';
 ?>
