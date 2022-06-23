@@ -184,9 +184,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<input type="email" name="email" placeholder="E-mail" required="">
 							<input type="text" name="telefone" placeholder="Telefone" required="">
 							
-						</div> 
+						</div>
+
+
 						
-						<div class="clearfix"> </div> 
+						 <div class="clearfix"> </div> 
 						
 						<input type="submit" value="Enviar">
 						<input type="reset" value="Limpar"> -->
@@ -263,4 +265,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		new window.VLibras.Widget("https://vlibras.gov.br/app");
 	  </script>
 </body>	
-</html>
+</html>';
+?>

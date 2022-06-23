@@ -305,4 +305,5 @@ while($row=@mysql_fetch_object($result)) {
 	new window.VLibras.Widget("https://vlibras.gov.br/app");
   </script>
 </body>	
-</html>
+</html>';
+?>

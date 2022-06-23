@@ -342,7 +342,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											  $('.events').append("<li>before event fired.</li>");
 											},
 											after: function () {
-											  $('.events').append("<li>after event fired.</li>");
+												$('.events').append("<li>before event fired.</li>");
 											}
 										  });
 									
@@ -400,7 +400,8 @@ $(function() {
 	  </div>
 	  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 	  <script>
-		new window.VLibras.Widget('https://vlibras.gov.br/app');
+		new window.VLibras.Widget(https://vlibras.gov.br/app);
 	  </script>
 </body>	
-</html>
+</html>';
+?>
