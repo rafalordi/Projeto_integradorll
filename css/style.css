@@ -1,3 +1,17 @@
+.whatsapp-link {
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    bottom: 75px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 43px;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    z-index: 1000;
+}
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -7,6 +21,9 @@ body a {
 }
 html, body{
     font-size: 100%;
+}
+.fa-whatsapp {
+    margin-top: 16px;
 }
 body{
 	font-family: 'Roboto', sans-serif;

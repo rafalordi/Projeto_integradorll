@@ -240,6 +240,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <script>
 	new window.VLibras.Widget(https://vlibras.gov.br/app);
   </script>
+  <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5519994176951" target="_blank">
+  <i class="fa fa-whatsapp"></i>
+</a>
 </body>	
 </html>';
 ?>

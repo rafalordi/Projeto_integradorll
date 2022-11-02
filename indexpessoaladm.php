@@ -43,6 +43,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script> 
 </head>
 <body>
+<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5519994176951" target="_blank">
+<i class="fa fa-whatsapp"></i>
+</a>
 	<!-- banner -->
 	<div class="banner">
 	<div class="agile_dot_info">
