@@ -286,7 +286,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador III.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
 				<div class="col-md-2 agile-footer-grid">
 					<h4>Linhas do (REEE)</h4>

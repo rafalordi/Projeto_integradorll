@@ -5,7 +5,7 @@
       type="image/png" 
       href="fotos/ícone.png">
 	  
-<title>Perfil HelperTec</title>
+<title>Área Restrita HelperTec</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="Travel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -29,6 +29,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	});
 </script> 
+
 </head>
 <body>
 	<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5519994176951" target="_blank">
@@ -64,7 +65,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<ul class="dropdown-menu">
 											<li><a href="perfil.html">Acessar Perfil</a></li>
 											<li><a href="arearestrita.html">Acessar Área Restrita</a></li>
-											<li><a href="relatórios.html">Relatório de Coletas</a></li>
 										</ul>
 									</li>
 
@@ -85,29 +85,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-
-	<div class="contact">
+		<div class="contact">
 		<div class="container">
-			<h2 class="heading-agileinfo">Acessar seu login<span>Faça o seu Login abaixo</span></h2>
+			<h2 class="heading-agileinfo">Relatório de coletas<span>Veja aqui o último relatório feito pelo Helpertec</span></h2>
+			<img src="images/relatório.jfif" alt="" />
 			<div class="w3layouts_mail_grids">
 			<div class="col-md-4 w3layouts_mail_grid_left">
-					<div class="footer-grids1f2">
-						<h3>E-mail</h3>
-						<p><a href="mailto:info@example.com">helpertec.suporte@hotmail.com</a></p>
-					</div>	
 				</div>
 				<div class="col-md-8 w3layouts_mail_grid_right">
-					<form action="teste.php" method="post">
-						<div class="col-md-6 wthree_contact_left_grid">
-							<input type="email" name="email" placeholder="E-mail" required="">
-							<input type="password" name="senha" placeholder="Senha" required="">
-							<span class="lnr lnr-eye"></span>
-        
-						</div>
-					
+					<form action="loginRestrito.php" method="post">
+
 						<div class="clearfix"> </div>
 						<br><br><br>
-						<input type="submit" value="Acessar">
+					
 						
 					</form>
 				</div>
@@ -122,30 +112,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4>Sobre nosso site</h4>
 					<p>Este site foi desenvolvido por alunos da <a href="https://univesp.br" target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador III.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
-				
-				<div class="col-md-2 agile-footer-grid">
-					<h4>Linhas do (REEE)</h4>
-					<ul>
-						<li>Linha Verde</li>
-						<li>Linha Marrom</li>
-						<li>Linha Azul</li>
-						<li>Linha Branca</li>
-					</ul>
+					<div class="col-md-2 agile-footer-grid">
+						<h4>Linhas do (REEE)</h4>
+						<ul>
+							<li>Linha Verde</li>
+							<li>Linha Marrom</li>
+							<li>Linha Azul</li>
+							<li>Linha Branca</li>
+						</ul>
+					</div>
+					<div class="col-md-2 agile-footer-grid">
+						<h4>Navegação</h4>
+						<ul>
+							<li class="text"><a href="index.html">Página Inicial</a></li>
+							<li class="text"><a href="cadastro.html">Cadastro</a></li>
+							<li class="text"><a href="suporte.html">Suporte</a></li>
+							<li class="text"><a href="perfil.html">Acessar Perfil</a></li>
+							<li class="text"><a href="arearestrita.html">Acessar Área Restrita</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
 				</div>
-				<div class="col-md-2 agile-footer-grid">
-					<h4>Navegação</h4>
-					<ul>
-						<li class="text"><a href="index.html">Página Inicial</a></li>
-						<li class="text"><a href="cadastro.html">Cadastro</a></li>
-						<li class="text"><a href="suporte.html">Suporte</a></li>
-						<li class="text"><a href="perfil.html">Acessar Perfil</a></li>
-						<li class="text"><a href="arearestrita.html">Acessar Área Restrita</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
 	<!-- //footer -->
 
 <!-- footer -->
@@ -162,7 +151,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
-				
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
 			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
