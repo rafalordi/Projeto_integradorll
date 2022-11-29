@@ -1,0 +1,25 @@
+* PARTE DO HTML *
+
+<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5519994176951" target="_blank">
+<i class="fa fa-whatsapp"></i>
+</a>
+
+
+
+
+* PARTE DO CSS *
+
+.whatsapp-link {
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    bottom: 75px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 43px;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    z-index: 1000;
+}
